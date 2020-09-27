@@ -1,0 +1,12 @@
+package knowledgebase.web;
+dialect  "mvel"
+
+import com.tk.engine.model.Input
+
+rule "input"
+    when
+        inputObject: Input(type=="text")
+    then
+        inputObject.setMin(100);
+        inputObject.setMax(999);
+end
