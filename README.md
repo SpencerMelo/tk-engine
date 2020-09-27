@@ -42,3 +42,6 @@ The facts can be confirmed by any specialist, in case it's not precise, the spec
   * Spring-boot
   * Maven.
   * JUnit 5.
+  
+**Observations:**<br>
+  * This application is meant to be a http RPC API and not REST/RESTful API.
